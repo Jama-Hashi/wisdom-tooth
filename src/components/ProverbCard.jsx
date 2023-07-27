@@ -13,11 +13,13 @@ const ProverbCard = ({ proverb }) => {
       } `}
     >
       <p className="proverb-paragraph">{displayedWriting}</p>
-      <div className="dont-remember">
+      <div
+        onClick={() => {
+          handleClick(proverb, setFlipIn, setFlipOut, setDisplayedWritng);
+        }}
+        className="dont-remember"
+      >
         <svg
-          onClick={() => {
-            handleClick(proverb, setFlipIn, setFlipOut, setDisplayedWritng);
-          }}
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"

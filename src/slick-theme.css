@@ -81,14 +81,14 @@
 .slick-prev:before
 {
     content: '<=';
-    color: black;
+    color: rgb(92, 106, 106);
  
 
 }
 [dir='rtl'] .slick-prev:before
 {
     content: '=>';
-    color: black;
+    color: rgb(92, 106, 106);
 }
 
 .slick-next
@@ -104,12 +104,12 @@
 .slick-next:before
 {
     content: '=>';
-    color: black;
+    color: rgb(92, 106, 106);
 }
 [dir='rtl'] .slick-next:before
 {
     content: '<=';
-    color: black;
+    color: rgb(92, 106, 106);
 }
 
 /* Dots */
